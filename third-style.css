@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.third-part{
+    margin-top: 60em;
+    margin-bottom: 20em;
+}
+
+.third-part .box {
+    width: 100%;
+    height: 100vh;
+}
+
+.third-part .container {
+    width: 100%;
+    background-color: rgb(253, 248, 248);
+}
+
+.third-part .logo {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.third-part .contain_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.third-part .heading {
+    padding: 25px
+}
+
+.third-part h2 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.third-part .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("./Image1.webp");
+    background-repeat: no-repeat;
+    margin-top: 80px;
+    background-size: 100vw auto;
+}
+
+.third-part .image img {
+    position: relative;
+    bottom: 30px;
+    width: 21vw;
+    height: auto;
+    max-height: 100%;
+}
+
+.third-part .content {
+    text-align: center;
+}
+
+.third-part .content p {
+    margin: 12px;
+    font-size: 45px;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.third-part .content h4 {
+    font-size: 18px;
+    padding: 0px 60px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+.third-part .last {
+    text-align: center;
+    margin-top: 30px;
+}

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100;300;400;500&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica,Arial,sans-serif;;
+}
+
+
+.fourthPartContainer{
+    margin-top: 15em;
+    margin-bottom: 15em;
+}
+
+/* Mother and Daughter image */
+.fourthPartContainer .motherDaughterImg{
+    width: 100%;
+}
+/* Overlapping text 1 in mother daughter image */
+.fourthPartContainer .mother-daughter .img-overlap1{
+    font-size: 1.2em;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 0.5px 1px 10px;
+    position: relative;
+    top: 8em;
+    left: 25em;
+}
+/* Overlapping text 2 in mother daughter image */
+.fourthPartContainer .mother-daughter .img-overlap2{
+    font-size: 1.2em;
+    color: #174EA6;
+    background-color: #D2E3FC;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    top: 16em;
+    left: 41.5em;
+}
+
+
+
+
+/* Div containing section below mother daughter picture, till see all supported banks */
+.fourthPartContainer .bankSection{
+    padding: 20px;
+    text-align: center;    
+}
+
+.fourthPartContainer .bankSection h1{
+    font-size: 4em;
+    margin-top: 1em;
+}
+.fourthPartContainer .bankSection p{
+    font-size: 1.2em;
+    margin: 14px 0;
+}
+.fourthPartContainer .bankSection a{
+    font-size: 1.1em;
+    
+}
+/* Div containing Images of Banks */
+.fourthPartContainer .bankImages{
+    padding: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* Images of Banks */
+.fourthPartContainer .bankImages img{
+    max-width: 100%;
+    max-height: 100%;
+    width: 250px;   
+}
+/* Bottom link of div tag containing bank images */
+.fourthPartContainer a{
+    text-decoration: none;
+    color: #174EA6;
+}
+.fourthPartContainer a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+
+
+/* Div of grey color box */
+.fourthPartContainer .greyBox{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    background-color: rgb(247, 247, 247);
+    margin-top: 20px;
+}
+.fourthPartContainer .greyBox h1{
+    padding: 20px;
+    padding-top: 3em;
+    font-size: 2.4em;
+}
+/* Flexbox used to arrange the logos. */
+.fourthPartContainer .greyBox .flex-container{
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.fourthPartContainer .greyBox .flex-container span{
+    padding: 4em;
+}
+/* Google play button and IOS button */
+.fourthPartContainer .link-buttons img{
+    width: 9em;
+}
+.fourthPartContainer .link-buttons a{
+    text-decoration: none;
+}

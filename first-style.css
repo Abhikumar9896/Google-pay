@@ -1,0 +1,84 @@
+
+    
+    .first-part{
+      margin-bottom: 5em;
+    }
+
+   
+   .first-part .nav{
+        height: 30vw;
+        width: 100%;
+        background-color: rgb(244, 243, 255);
+    }
+    
+      
+      
+        
+    .first-part  .brand-name {
+        font-size: 20px; /* Adjust as needed */
+        color: blue; /* Change the color to your desired color */
+      }
+    /*started*/
+
+    .first-part .background {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-image: url('Image\ 28-08-23\ at\ 6.52\ PM.jpg');
+        background-size: cover;
+        background-position: center;
+      }
+      
+      .first-part  .foreground {
+        position: absolute;
+        top: 60%;
+        left: 40%;
+        transform: translate(-5%, -39%);
+      }
+    
+      .first-part  .foreground img {
+        width: 40%;
+        height: 85%;
+      }
+    
+      .first-part  .content{
+        text-align: center;
+      }
+    
+      .first-part  .content h1 {
+            margin: 12px;
+            font-size: 45px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    
+        .first-part  .content p {
+        font-size: 25px;
+    }
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .image-container {
+        display: flex; /* Display images in a row */
+        align-items: center; /* Vertically align images */
+      }
+      
+      .first-part .image-container img {
+        max-width: 160px; /* Adjust the maximum width of the images */
+        margin: 10px; /* Adjust spacing between images */
+        height: 45;
+      }
+      
+
+
+      /*
+      .image-container {
+        width: 100%; 
+        text-align: center; 
+      }
+      
+      .image-container img {
+        max-width: 100%;  
+        height: 100; 
+      }
+      */

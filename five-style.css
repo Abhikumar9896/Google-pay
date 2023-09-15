@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.fifth-part img{
+    padding: 30px;
+    margin-top: 0em;
+}
+.fifth-part p{
+    margin: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.fifth-part span{
+    color: blue;
+
+}
+.fifth-part .box{
+    color: blueviolet;
+    text-align: center;
+    padding: 30px;
+}
+.fifth-part .box:hover{
+     color:blue ;
+}
+.fifth-part .image img{
+    height: 150px;
+    width: 200px;
+}
+.fifth-part .footer .list1{
+    float: left;
+    margin-right: 30px;
+    margin-left: 200px;
+}
+.fifth-part .footer .list2{
+    float: left;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+.fifth-part .footer .list3{
+    float: left;
+    margin-right: 30px;
+    margin-left: 150px;
+}
